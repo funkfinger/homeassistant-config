@@ -1,0 +1,125 @@
+{
+    "version": 1,
+    "key": "auth",
+    "data": {
+        "users": [
+            {
+                "id": "40ba720ae1b04c6ea16767bd706d5739",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": false,
+                "is_active": true,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "group_ids": [
+                    "system-admin"
+                ],
+                "is_owner": true,
+                "is_active": true,
+                "name": "Jay Wiggins",
+                "system_generated": false
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "credentials": [
+            {
+                "id": "361efb1f32d147adb60212db56ef66aa",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "auth_provider_type": "homeassistant",
+                "auth_provider_id": null,
+                "data": {
+                    "username": "funkfinger"
+                }
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "id": "3888444d38b9429c8540f78b11a6c9c0",
+                "user_id": "40ba720ae1b04c6ea16767bd706d5739",
+                "client_id": null,
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "system",
+                "created_at": "2020-11-07T04:41:28.499840+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "a909012ee34a6e90225341170e68c05fe63d0c4453a771295ff4d4a726615003334f4db2255ab512aef31e88fe8aa1a3494fdfe50bfcde1b43f92f375ad2faa8",
+                "jwt_key": "ec5fa158cc5a03a0bcf02a2880d66a45e305823145a648ba3e85013ac53c6f1852c8bcf1579f4397cf482a7c36971e8fc20407c6722beef6eef59efa727e2c98",
+                "last_used_at": "2020-11-12T03:40:29.493813+00:00",
+                "last_used_ip": "172.30.32.2"
+            },
+            {
+                "id": "438bcdadef194b5ebe5e2fc563f5c914",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "client_id": "http://10.0.2.52:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-11-07T05:21:06.147140+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "41515dccbabda158789b0d5ca61e77018642140fdbdc50086619e2fa3c9be086ed09fd9c7dd3b15617f45029e184442de813e656145e88323d2f1b6935804594",
+                "jwt_key": "4aa1f1479d77852851b4788b813888e7dff7dd638330ba46fc30ea9ca0404d09015126cf5295d5f04d81d23f65e23a2a14f70aad7ec3dcafa183f19c5910509c",
+                "last_used_at": "2020-11-07T05:51:35.296788+00:00",
+                "last_used_ip": "10.0.2.29"
+            },
+            {
+                "id": "3fd262f0ba164258bc6afc5da694f871",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "client_id": "http://homeassistant.local:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-11-07T05:39:06.708140+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "7d7545f1b965eba5501fa0e1596c94e408df8acdddc6589733e5dc4065b6e70db32af1f43a6a432cfdc7a8c51d418626a1778df2bc021d28fe771308d809cde0",
+                "jwt_key": "11a919e53178a1d97ef39f1e6ebafd63aed37e69d8c5ce34fbc1e8cf52aa672e697862f27804c11d6c3672e7f1745b537cd6b4a9af996a4658d1fe678502102a",
+                "last_used_at": "2020-11-12T03:37:33.587909+00:00",
+                "last_used_ip": "fe80::e5:d615:e8b1:5efd"
+            },
+            {
+                "id": "8961d7f5e402478aba1ae52dd9aa857b",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "client_id": "https://10.0.2.250:8123/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-11-12T03:58:27.152063+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "3a9fbdf55024d81a451f11b051b151f26c2d8aa19cebe06cb8ce03791257b3e0e2dae1046fc128d660d641dda5e1dedd87f3f9444615f3b0871ad9cdffdbc23e",
+                "jwt_key": "9b69c42d962f3bb8a5bbaa773920ae38dc4b1221d16ca1a59cea2f76c543356645a2c9bbe8cfcb35477419e7d2a490d6b76a8f92cf3f98404857d572327681d2",
+                "last_used_at": "2020-11-12T03:58:27.152616+00:00",
+                "last_used_ip": "10.0.2.29"
+            },
+            {
+                "id": "15fa7474d8234a488d13461a005a2848",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "client_id": "https://home.irk.com/",
+                "client_name": null,
+                "client_icon": null,
+                "token_type": "normal",
+                "created_at": "2020-11-12T03:58:53.619210+00:00",
+                "access_token_expiration": 1800.0,
+                "token": "23f9dd72acb37bb567858eb2be9efb2624cb9672bcf70a73d056eba379a86c8363abaaf06dcff25a0c2feeff5508d60c411b935c64b06b662e9d389a20c9ad61",
+                "jwt_key": "4cc174e9429cc574b98334495ebf0f9c136b9c95022b20574b072058d9a216e243ee54b2ff7961d4132d4074e58a25396421dfe0343eaefb3b156a78065f9243",
+                "last_used_at": "2020-11-12T03:58:53.619852+00:00",
+                "last_used_ip": "10.0.2.1"
+            }
+        ]
+    }
+}

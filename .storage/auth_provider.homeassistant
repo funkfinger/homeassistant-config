@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "funkfinger",
+                "password": "JDJiJDEyJHRONmp6d2NHaWZBTFg0MnU4VXVNWS5YN0hQQWVQMHZQVVZzcHhhZFFheDJydXF0aWREcXZp"
+            }
+        ]
+    }
+}

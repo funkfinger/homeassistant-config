@@ -1,0 +1,113 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "7ec08e5eb054dc8ea51353a7a3f1034f"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "met"
+                    ]
+                ],
+                "manufacturer": "Met.no",
+                "model": "Forecast",
+                "name": "Forecast",
+                "sw_version": null,
+                "entry_type": "service",
+                "id": "c0dc4f58e85464ab0de8e5174536f815",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "8cbddde5329a6e809fbd96b8d351580d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        1
+                    ]
+                ],
+                "manufacturer": "Z-Wave (Sigma Designs)",
+                "model": "UZB Z-Wave USB Adapter",
+                "name": "Z-Wave (Sigma Designs) UZB Z-Wave USB Adapter",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "31eb35b8f08a3c12b17f9f7848e97e72",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "8cbddde5329a6e809fbd96b8d351580d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        2
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "12720 Outdoor Smart Switch",
+                "name": "Jasco Products 12720 Outdoor Smart Switch",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2655e6b241b93d2c88b1ebf0bad69ce9",
+                "via_device_id": "31eb35b8f08a3c12b17f9f7848e97e72",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "8cbddde5329a6e809fbd96b8d351580d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        3
+                    ]
+                ],
+                "manufacturer": "Jasco Products",
+                "model": "45602 Lamp Dimmer Module",
+                "name": "Plug-In Dimmer",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "f59dc7c377a0ebd2ed956aebe3b1cd85",
+                "via_device_id": "31eb35b8f08a3c12b17f9f7848e97e72",
+                "area_id": null,
+                "name_by_user": null
+            },
+            {
+                "config_entries": [
+                    "8cbddde5329a6e809fbd96b8d351580d"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "zwave",
+                        4
+                    ]
+                ],
+                "manufacturer": "Evolve Guest Controls",
+                "model": "Unknown: type=4450, id=3030",
+                "name": "Evolve Guest Controls Unknown: type=4450, id=3030",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "c0ec5b0856188132d5a19935bc2fe804",
+                "via_device_id": "31eb35b8f08a3c12b17f9f7848e97e72",
+                "area_id": null,
+                "name_by_user": null
+            }
+        ],
+        "deleted_devices": []
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "Jay Wiggins",
+                "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                "device_trackers": [],
+                "id": "jay_wiggins"
+            }
+        ]
+    }
+}

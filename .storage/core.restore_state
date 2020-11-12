@@ -1,0 +1,27 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.jay_wiggins",
+                "state": "unknown",
+                "attributes": {
+                    "editable": true,
+                    "id": "jay_wiggins",
+                    "source": "person.jay_wiggins",
+                    "user_id": "b9e779e45fb04f2d95c90ce851ace4ef",
+                    "friendly_name": "Jay Wiggins"
+                },
+                "last_changed": "2020-11-12T03:55:25.227663+00:00",
+                "last_updated": "2020-11-12T03:55:25.227663+00:00",
+                "context": {
+                    "id": "a519226661f26e93c1f07137b8028fd3",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-11-12T03:55:28.596667+00:00"
+        }
+    ]
+}

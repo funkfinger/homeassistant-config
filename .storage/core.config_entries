@@ -1,0 +1,55 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "7ec08e5eb054dc8ea51353a7a3f1034f",
+                "version": 1,
+                "domain": "met",
+                "title": "Home",
+                "data": {
+                    "track_home": true
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "cloud_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "469de40e6ea13a32d4ff2efe8a717c40",
+                "version": 1,
+                "domain": "rpi_power",
+                "title": "Raspberry Pi Power Supply Checker",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "onboarding",
+                "connection_class": "local_poll",
+                "unique_id": null
+            },
+            {
+                "entry_id": "8cbddde5329a6e809fbd96b8d351580d",
+                "version": 1,
+                "domain": "zwave",
+                "title": "Z-Wave",
+                "data": {
+                    "usb_path": "/dev/ttyUSB0",
+                    "network_key": "0x89, 0xE3, 0x04, 0x53, 0x2A, 0x6A, 0xD7, 0x6F, 0x71, 0x9C, 0x77, 0xD8, 0x7D, 0xA1, 0x23, 0xEA"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_push",
+                "unique_id": null
+            }
+        ]
+    }
+}
